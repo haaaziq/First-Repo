@@ -2,16 +2,16 @@
 #include<iostream>
 using namespace std;
 
-class GitHub{
-    public:
-          void show(){
+class GitHub{                                              //Creating class named GitHub
+    public:                                                //Public Access
+          void show(){                                     //member function show() 
             cout<<"This is a show function of class Github"<<endl;
           }
 };
 
-int main(){
-  GitHub obj1;
-  obj1.show();
+int main(){             //main() function
+  GitHub obj1;          //creating Object of class
+  obj1.show();          //show() function called using obj1
 
 return 0;
 }
